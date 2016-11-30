@@ -1,0 +1,68 @@
+{
+    "data" : [
+        {
+            "activity":"Verkauf Fräse-Lang",
+            "planned_start":"04.09.2016",
+            "actual_start":"05.09.2016",
+            "planned_end":"09.10.2016",
+            "actual_end":"09.10.2016",
+            "user":"10"
+        },
+        {
+            "activity":"Verkauf Extruder",
+            "planned_start":"09.10.2016",
+            "actual_start":"11.10.2016",
+            "planned_end":"01.11.2016",
+            "actual_end":"04.11.2016",
+            "user":"11"
+        },
+        {
+            "activity":"Verkauf Fräse-Kurz",
+            "planned_start":"01.11.2016",
+            "actual_start":"09.11.2016",
+            "planned_end":"14.11.2016",
+            "actual_end":"18.11.2016",
+            "user":"13"
+        },
+        {
+            "activity":"Kauf Ck66/3-Allmotion ",
+            "planned_start":"14.11.2016",
+            "actual_start":"19.11.2016",
+            "planned_end":"29.11.2016",
+            "actual_end":"29.11.2016",
+            "user":"12"
+        },
+        {
+            "activity":"Einführung Ck66/3-Allmotion ",
+            "planned_start":"29.11.2016",
+            "actual_start":"03.12.2016",
+            "planned_end":"24.12.2016",
+            "actual_end":"09.01.2017",
+            "user":"13"
+        },
+        {
+            "activity":"Kauf Fräse 34DDe",
+            "planned_start":"24.12.2016",
+            "actual_start":"04.01.2017",
+            "planned_end":"22.01.2017",
+            "actual_end":"22.01.2017",
+            "user":"12"
+        },
+        {
+            "activity":"Einführung Fräse 34DDe",
+            "planned_start":"22.01.2017",
+            "actual_start":"22.01.2017",
+            "planned_end":"24.02.2017",
+            "actual_end":"24.04.2017",
+            "user":"12"
+        },
+        {
+            "activity":"Linus",
+            "planned_start":"09.11.2016",
+            "actual_start":"09.11.2016",
+            "planned_end":"30.11.2016",
+            "actual_end":"30.11.2016",
+            "user":"3"
+        },
+    ]
+}

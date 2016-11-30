@@ -1,0 +1,130 @@
+{
+    "data": [
+        {
+            "name":"Michael Kordt",
+            "firtname":"Michael",
+            "lastname":"Kordt",
+            "deparment":"Consultant",
+            "email":"mk@berater.de",
+            "login":"mk@berater.de",
+            "status":"active"
+        },
+        {
+            "name":"Anselm Vollmer",
+            "firtname":"Anselm",
+            "lastname":"Vollmer",
+            "deparment":"Consultant",
+            "email":"av@berater.de",
+            "login":"av@berater.de",
+            "status":"active"
+        },
+        {
+            "name":"Mira Falk",
+            "firtname":"Mira",
+            "lastname":"Falk",
+            "deparment":"Consultant",
+            "email":"mf@berater.de",
+            "login":"mf@berater.de",
+            "status":"active"
+        },
+        {
+            "name":"Ricardo Campbell",
+            "firtname":"Ricardo",
+            "lastname":"Campbell",
+            "deparment":"Controlling",
+            "email":"rc@comp.com",
+            "login":"rc@comp.com",
+            "status":"active"
+        },
+        {
+            "name":"Patricia Claußen",
+            "firtname":"Patricia",
+            "lastname":"Claußen",
+            "deparment":"Controlling",
+            "email":"pc@comp.com",
+            "login":"pc@comp.com",
+            "status":"active"
+        },
+        {
+            "name":"Susanne Marxen",
+            "firtname":"Susanne",
+            "lastname":"Marxen",
+            "deparment":"Management",
+            "email":"sm@comp.com",
+            "login":"sm@comp.com",
+            "status":"active"
+        },
+        {
+            "name":"Olaf Muntermacher",
+            "firtname":"Olaf",
+            "lastname":"Muntermacher",
+            "deparment":"Management",
+            "email":"om@comp.com",
+            "login":"om@comp.com",
+            "status":"active"
+        },
+        {
+            "name":"Anna Polanski",
+            "firtname":"Anna",
+            "lastname":"Polanski",
+            "deparment":"Staff",
+            "email":"ap@comp.com",
+            "login":"ap@comp.com",
+            "status":"active"
+        },
+        {
+            "name":"Mike Paals",
+            "firtname":"Mike",
+            "lastname":"Paals",
+            "deparment":"Staff",
+            "email":"mp@comp.com",
+            "login":"mp@comp.com",
+            "status":"active"
+        },
+        {
+            "name":"Lisa Padeken",
+            "firtname":"Lisa",
+            "lastname":"Padeken",
+            "deparment":"Staff",
+            "email":"lp@comp.com",
+            "login":"lp@comp.com",
+            "status":"active"
+        },
+        {
+            "name":"Christian Penning",
+            "firtname":"Christian",
+            "lastname":"Penning",
+            "deparment":"Staff",
+            "email":"cp@comp.com",
+            "login":"cp@comp.com",
+            "status":"active"
+        },
+        {
+            "name":"Rudolph Pons",
+            "firtname":"Rudolph",
+            "lastname":"Pons",
+            "deparment":"Staff",
+            "email":"rp@comp.com",
+            "login":"rp@comp.com",
+            "status":"active"
+        },
+        {
+            "name":"Piet Pintermann",
+            "firtname":"Piet",
+            "lastname":"Pintermann",
+            "deparment":"Staff",
+            "email":"pp@comp.com",
+            "login":"pp@comp.com",
+            "status":"active"
+        },
+        {
+            "name":"Xenia Prögmeyer",
+            "firtname":"Xenia",
+            "lastname":"Prögmeyer",
+            "deparment":"Staff",
+            "email":"xp@comp.com",
+            "login":"xp@comp.com",
+            "status":"active"
+        }
+    ]
+}
