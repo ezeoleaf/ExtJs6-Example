@@ -12,22 +12,38 @@ Ext.define('MyApp.view.main.Activities', {
     title: 'Activities',
 
     columns: [
-        { text: 'activity', dataIndex: 'activity', flex:1},
-        { text: 'planned_start', dataIndex: 'planned_start', renderer: function (value) {
+        { text: 'Activity', dataIndex: 'activity', flex:1},
+        { text: 'Planned Start', dataIndex: 'planned_start', renderer: function (value) {
               return value.split('.').join('/');
           }},
-        { text: 'actual_start', dataIndex: 'actual_start',renderer: function (value) {
+        { text: 'Actual Start', dataIndex: 'actual_start',renderer: function (value, meta, record, rowIndex) {
+                var currentStart = value.split('.').join('/');
+                var toUseStart = new Date(value.split('.').reverse().join('/'));
+                var plannedStart = record.get('planned_start').split('.').join('/');
+                var toUsePlannedStart = new Date(record.get('planned_start').split('.').reverse().join('/'));
+                var color = (toUseStart > toUsePlannedStart) ? 'red' : 'black';
+
+              return '<div style="color:'+color+'">'+currentStart+'</div>';
+          }},
+        { text: 'Planned End', dataIndex: 'planned_end',renderer: function (value) {
               return value.split('.').join('/');
           }},
-        { text: 'planned_end', dataIndex: 'planned_end',renderer: function (value) {
-              return value.split('.').join('/');
+        { text: 'Actual End', dataIndex: 'actual_end',renderer: function (value, meta, record, rowIndex) {
+              var currentEnd = value.split('.').join('/');
+                var toUseEnd = new Date(value.split('.').reverse().join('/'));
+                var plannedEnd = record.get('planned_end').split('.').join('/');
+                var toUsePlannedEnd = new Date(record.get('planned_end').split('.').reverse().join('/'));
+                var color = (toUseEnd > toUsePlannedEnd) ? 'red' : 'black';
+
+              return '<div style="color:'+color+'">'+currentEnd+'</div>';
           }},
-        { text: 'actual_end', dataIndex: 'actual_end',renderer: function (value) {
-              return value.split('.').join('/');
-          }},
-        { text: 'user', dataIndex: 'user', flex: 1, renderer: function(val, meta, record, rowIndex) {
-            return record.get('activity');
-        }}
+        { text: 'User', dataIndex: 'user', flex: 1}
     ]
+
+    /*
+    renderer: function(val, meta, record, rowIndex) {
+            return record.get('activity');
+        }
+    */
 
 });

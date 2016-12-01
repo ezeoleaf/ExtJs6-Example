@@ -19,36 +19,26 @@ Ext.define('MyApp.view.main.MainController', {
         }
     },
 
+    onSeriesRender: function (sprite, config, data, index) {
+        console.log('Cargue');
+        var isNegative = data.store.getAt(index).get('gaming') < 0;
+
+        if (isNegative) {
+            return {
+                fillStyle: '#974144'
+            };
+        }
+    },
+
     onAxisLabelRender: function (axis, label, layoutContext) {
-        return Ext.util.Format.number(layoutContext.renderer(label) / 1000, '0,000');
+        // Custom renderer overrides the native axis label renderer.
+        // Since we don't want to do anything fancy with the value
+        // ourselves except adding a thousands separator, but at the same time
+        // don't want to loose the formatting done by the native renderer,
+        // we let the native renderer process the value first.
+        var value = layoutContext.renderer(label);
+        var vValue = value.split('.');
+        return vValue[0]+'/'+vValue[1]+'/'+vValue[2];
     },
-
-    onSeriesLabelRender: function (v) {
-        return Ext.util.Format.number(v / 1000, '0,000');
-    },
-
-    onItemEditTooltipRender: function (tooltip, item, target, e) {
-        var formatString = '0,000 (billions of USD)',
-            record = item.record;
-
-        tooltip.setHtml(record.get('country') + ': ' +
-            Ext.util.Format.number(target.yValue / 1000, formatString));
-    },
-
-    onSeriesTooltipRender: function(tooltip, record, item) {
-        var formatString = '0,000 (millions of USD)';
-
-        tooltip.setHtml(record.get('country') + ': ' +
-            Ext.util.Format.number(record.get('ind'), formatString));
-    },
-
-    onColumnRender: function (v) {
-        return v + '%';
-    },
-
-    onPreview: function () {
-        var chart = this.lookupReference('chart');
-        chart.preview();
-    }
 
 });

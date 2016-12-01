@@ -1,0 +1,15 @@
+Name;Firstname;Lastname;Department;E-Mail *;Login;Status
+Michael Kordt;Michael;Kordt;Consultant;mk@berater.de;mk@berater.de;active
+Anselm Vollmer;Anselm;Vollmer;Consultant;av@berater.de;av@berater.de;active
+Mira Falk;Mira;Falk;Consultant;mf@berater.de;mf@berater.de;active
+Ricardo Campbell;Ricardo;Campbell;Controlling;rc@comp.com;rc@comp.com;active
+Patricia Claußen;Patricia;Claußen;Controlling;pc@comp.com;pc@comp.com;active
+Susanne Marxen;Susanne;Marxen;Management;sm@comp.com;sm@comp.com;active
+Olaf Muntermacher;Olaf;Muntermacher;Management;om@comp.com;om@comp.com;active
+Anna Polanski;Anna;Polanski;Staff;ap@comp.com;ap@comp.com;active
+Mike Paals;Mike;Paals;Staff;mp@comp.com;mp@comp.com;active
+Lisa Padeken;Lisa;Padeken;Staff;lp@comp.com;lp@comp.com;active
+Christian Penning;Christian;Penning;Staff;cp@comp.com;cp@comp.com;active
+Rudolph Pons;Rudolph;Pons;Staff;rp@comp.com;rp@comp.com;active
+Piet Pintermann;Piet;Pintermann;Staff;pp@comp.com;pp@comp.com;active
+Xenia Prögmeyer;Xenia;Prögmeyer;Staff;xp@comp.com;xp@comp.com;active

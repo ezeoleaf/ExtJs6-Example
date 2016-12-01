@@ -1,5 +1,5 @@
 $app-name:  dynamic( 'MyApp' );
-$image-search-path: 'C:/Users/Eze/Desktop/ExtJs6-Example/build/development/MyApp/classic/resources';
+$image-search-path: 'C:/Users/efigueroa/Desktop/MyApp/build/development/MyApp/classic/resources';
 $theme-name:  dynamic( 'theme-triton' );
 $include-ext-abstractcomponent: dynamic(true);;
 $include-ext-abstractcontainer: dynamic(true);;
@@ -1080,7 +1080,7 @@ $include-ext-window-window: dynamic(true);;
 $include-myapp-application: dynamic(true);;
 $include-myapp-model-user: dynamic(true);;
 $include-myapp-store-activity: dynamic(true);;
-$include-myapp-store-earnings: dynamic(true);;
+$include-myapp-store-effects: dynamic(true);;
 $include-myapp-store-personnel: dynamic(true);;
 $include-myapp-store-users: dynamic(true);;
 $include-myapp-view-main-activities: dynamic(true);;

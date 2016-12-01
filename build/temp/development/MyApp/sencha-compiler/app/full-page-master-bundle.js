@@ -1,2 +1,2 @@
 // @tag full-page
-// @require C:\Users\Eze\Desktop\ExtJs6-Example\app.js
+// @require C:\Users\efigueroa\Desktop\MyApp\app.js

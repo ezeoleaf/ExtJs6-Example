@@ -16,7 +16,7 @@ Ext.define('MyApp.view.main.ListUsers', {
         { text: 'Firstname', dataIndex: 'firstname'},
         { text: 'Lastname', dataIndex: 'lastname'},
         { text: 'Department', dataIndex: 'department'},
-        { text: 'E-mail', dataIndex: 'email',flex:1},
+        { text: 'E-mail', dataIndex: 'e-mail_*',flex:1},
         { text: 'Login', dataIndex: 'login'},
         { text: 'Status', dataIndex: 'status', renderer: function(value) {
             var color = (value == 'active') ? 'green' : 'red';
