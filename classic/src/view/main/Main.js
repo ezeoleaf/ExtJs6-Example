@@ -95,10 +95,10 @@ Ext.define('MyApp.view.main.Main', {
             xtype: 'activityList'
         }]
     }, {
-        title: 'Settings',
+        title: 'Effects',
         iconCls: 'fa-cog',
-        bind: {
-            html: '{loremIpsum}'
-        }
+        items: [{
+            xtype: 'char'
+        }]
     }]
 });

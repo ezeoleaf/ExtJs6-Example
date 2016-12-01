@@ -1,2 +1,2 @@
 Compass.add_project_configuration('..\..\..\..\..\sass\config.rb')
-cache_path = 'c:\Users\efigueroa\Desktop\MyApp/build/.sass-cache'
+cache_path = 'C:\Users\Eze\Desktop\ExtJs6-Example/build/.sass-cache'
